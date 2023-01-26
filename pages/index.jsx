@@ -65,7 +65,7 @@ export default function Home() {
 
 
 
-        <div className='bg-primary bottom-0 left-0 right-0 pt-[500px]'>
+        <div className='bg-primary w-[100%] pt-[500px]'>
           <div className='flex justify-between items-center bg-white h-[80px] mx-6'>
 
             <div>

@@ -63,7 +63,7 @@ export default function AboutSection() {
               </div>
               <div className='flex flex-col gap-2'>
                 <p className='text-[24px] font-medium mt-10 ml-7 mr-8'>
-                  Hi! I'm an ameteur website developer specializing in website developing. Had done some projects about web development given by my school involving front ends development.
+                  Hi! I'm an ameteur website developer specializing in website developing. Had done some projects about web development given by my school involving front end development.
                 </p>
                 <p className='text-[24px] font-medium mt-3 ml-7 mr-5'>
                   I am currently doing an internship at Taksu Tech HQ and I would be happy to receive more projects in the future!

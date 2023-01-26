@@ -66,10 +66,10 @@ export default function Home() {
 
 
         <div className='bg-primary w-[100%] pt-[500px]'>
-          <div className='flex justify-between items-center bg-white h-[80px] mx-6'>
+          <div className='flex justify-between items-center bg-white h-[80px]'>
 
             <div>
-              <p className='text-[28px] font-bold'>
+              <p className='text-[28px] font-bold ml-6'>
                 Made by Kenneth Koraag.
               </p>
             </div>
@@ -84,7 +84,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div>
+              <div className='mr-7'>
                <p className='text-[21px] font-semibold text-center'>
                   Email
                 </p>

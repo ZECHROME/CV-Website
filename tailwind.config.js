@@ -2,7 +2,8 @@
 module.exports = {
   mode: "jit",
   content: [
-    "./pages/**/*.jsx" 
+    "./pages/**/*.jsx",
+    "./components/**/*.jsx" 
   ],
   theme: {
     extend: {
@@ -10,13 +11,21 @@ module.exports = {
         primary: {
           100: "#FFC6D3",
           300: "#FEA1BF",
-          500: "#E98EAD",
-          600: "#FF9F9F",
+          500: "#FF9F9F",
+          600: "#E98EAD",          
           700: "#E97777",
           800: "#FF6464",
-          900: "#3A4F7A",
+          900: "#FF597B",
           DEFAULT: "#FEFCF3",
+        },
+
+        secondary: {
+          DEFAULT: "#3A4F7A",
         }
+      },
+      animation: {
+        'spin-slow': 'spin 6s linear infinite',
+        'spin-delay': 'spin 6s 3s linear infinite',
       }
     },
   },

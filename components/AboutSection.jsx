@@ -1,11 +1,11 @@
 
 export default function AboutSection() {
-    return <>
+    return <div>
     {/* ABOUT */}
-    <div id="#about" className='relative'>
-          <div className='bg-primary-600 w-[40%] h-[1100px] inline-block absolute'></div>
+    <div id="about" className='relative'>
+          <div className='bg-primary-500 w-[40%] h-[1100px] inline-block'></div>
           {/* main container */}
-          <div className='flex bg-white w-[75%] h-[600px] inline-block translate-x-[15rem] translate-y-[15rem] drop-shadow-lg'>
+          <div className='flex bg-white w-[75%] h-[600px] absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] drop-shadow-lg'>
             {/* column 1 */}
             <div className='w-[40%] h-[100%] drop-shadow-2xl'>
               <div className='flex justify-start items-center py-5 gap-3 flex-col my-0 bg-orange-200 w-[100%] h-[90%]'>
@@ -18,7 +18,7 @@ export default function AboutSection() {
                     Jerome Koraag
                   </p>
                 </div>
-                <div className='bg-primary-900 w-[155px] h-[3px]'></div>
+                <div className='bg-secondary w-[155px] h-[3px]'></div>
                 <p className='text-[32px] font-extralight'>
                   C V &nbsp; P R O J E C T
                 </p>
@@ -71,7 +71,6 @@ export default function AboutSection() {
               </div>
             </div>
           </div>
-
         </div>
-    </>
+    </div>
 }

@@ -4,6 +4,8 @@ import { Chivo } from '@next/font/google'
 
 //Components
 import AboutSection from '@/components/AboutSection'
+import ResumeSection from '@/components/ResumeSection'
+import ContactSection from '@/components/ContactSection'
 
 
 const poppins = Poppins({ subsets: ['latin'], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] })
@@ -30,10 +32,10 @@ export default function Home() {
         <nav className="p-5 bg-white drop-shadow-xl w--[100%] h-[100px] md:flex md:items-center md:justify-between fixed left-0 right-0 z-[999]">
           <div className='flex justify-between items-center'>
             <div>
-              <span className="text-2xl font-[Poppins] font-extrabold mr-2">
+              <span className="text-[29px] font-[Poppins] font-extrabold mr-2">
                 Kenneth Koraag 
               </span>
-              <span className='text-xl font-[Poppins] font-normal'>
+              <span className='text-[23px] font-[Poppins] font-normal'>
                 / Junior Web Developer
               </span>
             </div>
@@ -44,28 +46,37 @@ export default function Home() {
           </div>
 
           <ul className='md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 md:my-0 md:pl-0 pl-5 md:opacity-100 opacity-0 top-[-4000px] transition-all ease-in duration-500'>
-            <li className='mx-4 my-6 md:my-0'>
-              <a href="#about" className='text-xl hover:text-blue-500 active:text-blue-500 duration-500'>About Me</a>
+            <li className='mx-5 my-6 md:my-0'>
+              <a href="#about" className='text-[25px] hover:text-blue-500 active:text-blue-500 duration-500'>About Me</a>
             </li>
-            <li className='mx-4 my-6 md:my-0'>
-              <a href="#" className='text-xl hover:text-blue-500 duration-500'>Resume</a>
+            <li className='mx-5 my-6 md:my-0'>
+              <a href="#resume" className='text-[25px] hover:text-blue-500 active:text-blue-500 duration-500'>Resume</a>
             </li>
-            <li className='mx-4 my-6 md:my-0'> 
-              <a href="#" className='text-xl hover:text-blue-500 duration-500'>Expertise</a>
-            </li>
-            <li className='mx-4 my-6 md:my-0'>
-              <a href="#" className='text-xl hover:text-blue-500 duration-500'>Contact</a>
+            <li className='mx-5 my-6 md:my-0'>
+              <a href="#contact" className='text-[25px] hover:text-blue-500 active:text-blue-500 duration-500 mr-1'>Contact</a>
             </li>
           </ul>
         </nav>
 
 
-          
+        
         <AboutSection />
+        <br />
+        <br />
+        <div className='bg-primary-900 h-[20px]'></div>
+        <br />
+        <br />
+        <ResumeSection />
+        <br />
+        <br />
+        <div className='bg-primary-900 h-[20px]'></div>
+        <br />
+        <br />
+        <ContactSection />
 
 
 
-        <div className='bg-primary w-[100%] pt-[500px]'>
+        <div className='bg-primary w-[100%]'>
           <div className='flex justify-between items-center bg-white h-[80px]'>
 
             <div>

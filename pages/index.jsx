@@ -8,16 +8,13 @@ import ResumeSection from '@/components/ResumeSection'
 import ContactSection from '@/components/ContactSection'
 
 
+
 const poppins = Poppins({ subsets: ['latin'], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] })
 const chivo = Chivo({subsets: ['latin'], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"]})
 
 export default function Home() {
-  function Menu(e) {
-    if (typeof window == "undefined") return;
-    let list = document.querySelector('ul');
 
-    e.name === 'menu' ? (e.name = "close", list.classList.add('top-[80px]') , list.classList.add('opacity-100')) : (e.name = "menu", list.classList.remove('top-[80px]') , list.classList.remove('opacity-100'))
-  };
+
   return (
     <>
       <Head>
@@ -28,7 +25,7 @@ export default function Home() {
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       </Head>
-      <main className="min-h-screen bg-primary h-[1100px]">
+      <main className="min-h-screen bg-primary">
         <nav className="p-5 bg-white drop-shadow-xl w--[100%] h-[100px] md:flex md:items-center md:justify-between fixed left-0 right-0 z-[999]">
           <div className='flex justify-between items-center'>
             <div>
@@ -41,7 +38,7 @@ export default function Home() {
             </div>
             
             <span className='text-3xl cursor-pointer mx-2 md:invisible'>
-              <ion-icon name="menu-outline" onclick={Menu}></ion-icon>
+              <ion-icon name="menu-outline"></ion-icon>
             </span>
           </div>
 
@@ -61,18 +58,14 @@ export default function Home() {
 
         
         <AboutSection />
-        <br />
-        <br />
-        <div className='bg-primary-900 h-[20px]'></div>
-        <br />
-        <br />
         <ResumeSection />
-        <br />
+        <ContactSection />
+        {/* <br />
         <br />
         <div className='bg-primary-900 h-[20px]'></div>
         <br />
-        <br />
-        <ContactSection />
+        <br /> */}
+        
 
 
 
@@ -110,4 +103,4 @@ export default function Home() {
       </main>
     </>
   )
-}
+};

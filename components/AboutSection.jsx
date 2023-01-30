@@ -3,7 +3,7 @@ export default function AboutSection() {
     return <div>
     {/* ABOUT */}
     <div id="about" className='relative'>
-          <div className='bg-primary-500 w-[40%] h-[1100px] inline-block'></div>
+          <div className='bg-primary-500 w-[40%] h-[150vh] inline-block'></div>
           {/* main container */}
           <div className='flex bg-white w-[75%] h-[600px] absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] drop-shadow-lg'>
             {/* column 1 */}
@@ -54,12 +54,17 @@ export default function AboutSection() {
                 </p>
               </div>             
               <div className='flex gap-3 ml-7 mt-10'>
-                <button className='bg-primary-700 w-[160px] h-[53px] rounded-full text-white font-bold text-xl hover:bg-white hover:text-black hover:border-4 hover:border-primary-700 transition-all'>
-                  Resume
-                </button>
-                <button className='bg-white w-[160px] h-[53px] rounded-full border-4 border-primary-700 font-bold text-xl hover:bg-primary-700 hover:text-white transition-all'>
-                  Contact
-                </button>
+                <a href="#resume">
+                  <button className='bg-primary-700 w-[160px] h-[53px] rounded-full text-white font-bold text-xl hover:bg-white hover:text-black hover:border-4 hover:border-primary-700 transition-all'>
+                    Resume
+                  </button>
+                </a>
+                <a href="#contact">
+                  <button className='bg-white w-[160px] h-[53px] rounded-full border-4 border-primary-700 font-bold text-xl hover:bg-primary-700 hover:text-white transition-all'>
+                    Contact
+                  </button>
+                </a>
+                
               </div>
               <div className='flex flex-col gap-2'>
                 <p className='text-[24px] font-medium mt-10 ml-7 mr-8'>

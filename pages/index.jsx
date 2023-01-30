@@ -54,21 +54,11 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-
-
-        
+       
         <AboutSection />
         <ResumeSection />
         <ContactSection />
-        {/* <br />
-        <br />
-        <div className='bg-primary-900 h-[20px]'></div>
-        <br />
-        <br /> */}
         
-
-
-
         <div className='bg-primary w-[100%]'>
           <div className='flex justify-between items-center bg-white h-[80px]'>
 

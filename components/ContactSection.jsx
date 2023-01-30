@@ -41,7 +41,6 @@ export default function ContactSection() {
                     
                     <div className="inputBox relative w-[100%] mt-[55px] isolate">
                         <input type="text" required="required" name="body" className="relative w-[100%] p-[10px] pl-5 mt-[20px] bg-transparent border-none outline-0 text-[#2F4F4F] text-[20px] font-semibold tracking-wider z-[10]"/>
-                        {/* <textarea name="" id="" cols="30" rows="10" require="required" className="relative w-[100%] p-[10px] pl-5 mt-[20px] bg-transparent border-none outline-0 text-black text-lg tracking-wider z-[10]"></textarea> */}
                         <span className="absolute left-0 pt-[20px] pr-[10px] pb-[10px] text-[26px] font-bold text-white tracking-wider">Message</span>
                         <i className="absolute left-0 bottom-0 w-[100%] h-[4px] bg-white rounded-md"></i>
                     </div> 

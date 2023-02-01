@@ -26,6 +26,9 @@ module.exports = {
       animation: {
         'spin-slow': 'spin 4s linear infinite',
         'spin-delay': 'spin 4s 2s linear infinite',
+      },
+      backgroundImage: {
+        'bsa': "url('/img/bsa2.jpeg');"
       }
     },
   },

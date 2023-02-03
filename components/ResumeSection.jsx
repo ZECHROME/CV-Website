@@ -18,36 +18,38 @@ export default function ResumeSection() {
 		<div>
 			{/* RESUME */}
 			<div id="resume" className="relative animate-fade-in">
-				<div className="flex justify-start items-center flex-col bg-primary-100 w-[100%] h-[400vh] pt-[120px]">
-					<div className="flex items-center flex-col mb-[90px]">
-						<p className="flex justify-center items-center text-[60px] font-bold mb-[-6px] mt-[80px] bg-white w-[310px] h-[90px] text-black rounded-full drop-shadow-xl pb-1 tracking-wide">Resume</p>
+				<div className="flex justify-start items-center flex-col bg-primary-100 w-[100%] h-[400vh] pt-[120px] s:pt-[100px]">
+					<div className="flex items-center flex-col mb-[90px] s:mb-[50px]">
+						<p className="flex justify-center items-center text-[60px] font-bold mb-[-6px] mt-[80px] bg-white w-[310px] h-[90px] text-black rounded-full drop-shadow-xl pb-1 tracking-wide s:w-[170px] s:h-[55px] s:mt-[10px] s:mb-0 s:text-[30px]">Resume</p>
 						{/* <div className="bg-primary-900 w-[120%] h-2 rounded-lg"></div> */}
 					</div>
 					{/* Education */}
-					<p className="flex flex-start w-[60%] text-[43px] font-bold ml-3">Education</p>
+					<p className="flex flex-start w-[60%] text-[43px] font-bold ml-3 s:w-[90%] s:text-[23px] s:ml-3">Education</p>
 
 					{/* Elementary */}
 					{/* front */}
-					<div className="main relative bg-transparent w-[60%] h-[490px] mt-[20px] drop-shadow-2xl rounded-2xl">
-						<div className="card relative w-[100%] h-[100%] bg-white rounded-2xl">
-							<div className="front absolute w-[90%] h-[90%] bg-white text-black mt-6 ml-[30px]">
-								<p className="text-[47px] font-bold text-primary-700 mb-[-18px]">2012 - 2018</p>
-								<p className="text-[45px] font-semibold mb-[5px]">Elementary School</p>
-								<div className="flex flex-row items-center gap-4 text-[30px] font-normal ml-7 mb-1">
+					<div className="main relative bg-transparent w-[60%] h-[490px] mt-[20px] drop-shadow-2xl rounded-2xl s:w-[90%] s:h-[210px] s:mt-[12px]">
+						<div className="card relative w-[100%] h-[100%] bg-white rounded-2xl s:w-[100%] s:h-[100%]">
+							<div className="front absolute w-[90%] h-[90%] bg-white text-black mt-6 ml-[30px] s:w-[100%] s:h-[100%] s:mt-0 s:ml-0 s:rounded-2xl">
+								<p className="text-[47px] font-bold text-primary-700 mb-[-18px] s:text-[24px] s:mb-[-7px] s:ml-3 s:mt-2">2012 - 2018</p>
+								<p className="text-[45px] font-semibold mb-[5px] s:text-[23px] s:ml-3 s:mb-[3px]">Elementary School</p>
+								<div className="flex flex-row items-center gap-4 text-[30px] font-normal ml-7 mb-1 s:text-[15px] s:ml-4 s:gap-2">
 									<ion-icon name="hourglass-outline"></ion-icon>
 									<p>6 Years</p>
 								</div>
-								<div className="flex flex-row items-center gap-4 text-[30px] font-normal ml-7 mb-1">
+								<div className="flex flex-row items-center gap-4 text-[30px] font-normal ml-7 mb-1 s:text-[15px] s:ml-4 s:gap-2">
 									<ion-icon name="location-outline"></ion-icon>
 									<p>Bali Star Academy</p>
 								</div>
-								<div className="flex flex-row items-start gap-4 text-[30px] font-normal ml-7">
-									<div className="pt-1">
+								<div className="flex flex-row items-start gap-4 text-[30px] font-normal ml-7 s:text-[15px] s:ml-4 s:gap-2">
+									<div className="pt-1 s:pt-[2px]">
 										<ion-icon name="book-outline"></ion-icon>
 									</div>
-									<p>An elementary school I went to when I was 7 years old until I was 13 years old. This is the place where I explore myself more as I grow up to find out what I like and what would I want to be in the future.</p>
+									<p>
+										<span className="s:hidden">An elementary school I went to when I was 7 years old until I was 13 years old.</span> This is the place where I explore myself more as I grow up to find out what I like and what would I want to be in the future.
+									</p>
 								</div>
-								<div className="flipper absolute right-[0px] top-[5px] text-[45px] text-primary-500 hover:text-[#FF597B]">
+								<div className="flipper absolute right-[0px] top-[5px] text-[45px] text-primary-500 hover:text-[#FF597B] s:text-[26px] s:top-[10px] s:right-[15px]">
 									<i class="fa-solid fa-rotate"></i>
 								</div>
 							</div>
@@ -73,26 +75,28 @@ export default function ResumeSection() {
 
 					{/* Junior High */}
 					{/* front */}
-					<div className="main relative bg-transparent w-[60%] h-[510px] mt-[50px] drop-shadow-2xl rounded-2xl">
-						<div className="card relative w-[100%] h-[100%] bg-white rounded-2xl">
-							<div className="front absolute w-[90%] h-[90%] bg-white text-black mt-6 ml-[30px]">
-								<p className="text-[47px] font-bold text-primary-700 mb-[-18px]">2018 - 2021</p>
-								<p className="text-[45px] font-semibold mb-[5px]">Junior High School</p>
-								<div className="flex flex-row items-center gap-4 text-[30px] font-normal ml-7 mb-1">
+					<div className="main relative bg-transparent w-[60%] h-[510px] mt-[50px] drop-shadow-2xl rounded-2xl s:w-[90%] s:h-[210px] s:mt-[30px]">
+						<div className="card relative w-[100%] h-[100%] bg-white rounded-2xl s:w-[100%] s:h-[110%]">
+							<div className="front absolute w-[90%] h-[90%] bg-white text-black mt-6 ml-[30px] s:w-[100%] s:h-[100%] s:mt-0 s:ml-0 s:rounded-2xl">
+								<p className="text-[47px] font-bold text-primary-700 mb-[-18px] s:text-[24px] s:mb-[-7px] s:ml-3 s:mt-2">2018 - 2021</p>
+								<p className="text-[45px] font-semibold mb-[5px] s:text-[23px] s:ml-3 s:mb-[3px]">Junior High School</p>
+								<div className="flex flex-row items-center gap-4 text-[30px] font-normal ml-7 mb-1 s:text-[15px] s:ml-4 s:gap-2">
 									<ion-icon name="hourglass-outline"></ion-icon>
 									<p>3 Years</p>
 								</div>
-								<div className="flex flex-row items-center gap-4 text-[30px] font-normal ml-7 mb-1">
+								<div className="flex flex-row items-center gap-4 text-[30px] font-normal ml-7 mb-1 s:text-[15px] s:ml-4 s:gap-2">
 									<ion-icon name="location-outline"></ion-icon>
 									<p>Bali Star Academy</p>
 								</div>
-								<div className="flex flex-row items-start gap-4 text-[30px] font-normal ml-7">
-									<div className="pt-1">
+								<div className="flex flex-row items-start gap-4 text-[30px] font-normal ml-7 s:text-[15px] s:ml-4 s:gap-2">
+									<div className="pt-1 s:pt-[2px]">
 										<ion-icon name="book-outline"></ion-icon>
 									</div>
-									<p>I still went to BSA to continue my education on the Junior High level. On the 9th Grade I started hearing stuffs about programming from the people around me and that&apos;s why I started taking interest and started my coding journey.</p>
+									<p>
+										<span className="s:hidden">I still went to BSA to continue my education on the Junior High level.</span> On the 9th Grade I started hearing stuffs about programming from the people around me and that&apos;s why I started taking interest and started my coding journey.
+									</p>
 								</div>
-								<div className="flipper absolute right-[0px] top-[5px] text-[45px] text-primary-500 hover:text-[#FF597B]">
+								<div className="flipper absolute right-[0px] top-[5px] text-[45px] text-primary-500 hover:text-[#FF597B]s:text-[26px] s:top-[10px] s:right-[15px]">
 									<i class="fa-solid fa-rotate"></i>
 								</div>
 							</div>
@@ -118,26 +122,28 @@ export default function ResumeSection() {
 
 					{/* Senior High */}
 					{/* front */}
-					<div className="main relative bg-transparent w-[60%] h-[490px] mt-[50px] drop-shadow-2xl rounded-2xl">
-						<div className="card relative w-[100%] h-[100%] bg-white rounded-2xl">
-							<div className="front absolute w-[90%] h-[90%] bg-white text-black mt-6 ml-[30px]">
-								<p className="text-[47px] font-bold text-primary-700 mb-[-15px]">2021 - today</p>
-								<p className="text-[45px] font-semibold mb-[5px]">Senior High School</p>
-								<div className="flex flex-row items-center gap-4 text-[30px] font-normal ml-7 mb-1">
+					<div className="main relative bg-transparent w-[60%] h-[490px] mt-[50px] drop-shadow-2xl rounded-2xl s:w-[90%] s:h-[210px] s:mt-[50px]">
+						<div className="card relative w-[100%] h-[100%] bg-white rounded-2xl s:w-[100%] s:h-[100%]">
+							<div className="front absolute w-[90%] h-[90%] bg-white text-black mt-6 ml-[30px] s:w-[100%] s:h-[100%] s:mt-0 s:ml-0 s:rounded-2xl">
+								<p className="text-[47px] font-bold text-primary-700 mb-[-15px] s:text-[24px] s:mb-[-7px] s:ml-3 s:mt-2">2021 - today</p>
+								<p className="text-[45px] font-semibold mb-[5px] s:text-[23px] s:ml-3 s:mb-[3px]">Senior High School</p>
+								<div className="flex flex-row items-center gap-4 text-[30px] font-normal ml-7 mb-1 s:text-[15px] s:ml-4 s:gap-2">
 									<ion-icon name="hourglass-outline"></ion-icon>
 									<p>~</p>
 								</div>
-								<div className="flex flex-row items-center gap-4 text-[30px] font-normal ml-7 mb-1">
+								<div className="flex flex-row items-center gap-4 text-[30px] font-normal ml-7 mb-1 s:text-[15px] s:ml-4 s:gap-2">
 									<ion-icon name="location-outline"></ion-icon>
 									<p>SMK TI Bali Global Denpasar</p>
 								</div>
-								<div className="flex flex-row items-start gap-4 text-[30px] font-normal ml-7">
-									<div className="pt-1">
+								<div className="flex flex-row items-start gap-4 text-[30px] font-normal ml-7 s:text-[15px] s:ml-4 s:gap-2">
+									<div className="pt-1 s:pt-[2px]">
 										<ion-icon name="book-outline"></ion-icon>
 									</div>
-									<p>I went to SMK TI Bali Global Denpasar to continue my education journey. Here I chose &apos;Rekayasa Perangkat Lunak&apos; as my major so that I can learn more about programming and go deeper into it.</p>
+									<p>
+										<span className="s:hidden">I went to SMK TI Bali Global Denpasar to continue my education journey.</span> Here I chose &apos;Rekayasa Perangkat Lunak&apos; as my major so that I can learn more about programming and go deeper into it.
+									</p>
 								</div>
-								<div className="flipper absolute right-[0px] top-[5px] text-[45px] text-primary-500 hover:text-[#FF597B]">
+								<div className="flipper absolute right-[0px] top-[5px] text-[45px] text-primary-500 hover:text-[#FF597B]s:text-[26px] s:top-[10px] s:right-[15px]">
 									<i class="fa-solid fa-rotate"></i>
 								</div>
 							</div>

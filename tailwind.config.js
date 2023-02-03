@@ -7,15 +7,24 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        phone: {
+          max: "768px",
+        },
+      },
+
       colors: {
         primary: {
           100: "#FFC6D3",
           300: "#FEA1BF",
+          400: "#FF6EC7",
           500: "#FF9F9F",
           600: "#E98EAD",          
           700: "#E97777",
           800: "#FF6464",
           900: "#FF597B",
+          1000: "#FF007F",
+
           DEFAULT: "#FEFCF3",
         },
 
@@ -26,6 +35,17 @@ module.exports = {
       animation: {
         'spin-slow': 'spin 4s linear infinite',
         'spin-delay': 'spin 4s 2s linear infinite',
+        "fade-in": "fade-in 1s linear forwards"        
+      },
+      keyframes: {
+        'fade-in': {
+          "0%": {
+            opacity: "0",
+          },
+          "100%": {
+            opacity: "1",
+          }
+        },
       },
       backgroundImage: {
         'bsa': "url('/img/bsa2.jpeg');"

@@ -34,7 +34,7 @@ module.exports = {
       },
       animation: {
         'spin-slow': 'spin 4s linear infinite',
-        'spin-delay': 'spin 4s 2s linear infinite',
+        'spin-delay': 'spin 4s linear infinite',
         "fade-in": "fade-in 1s linear forwards"        
       },
       keyframes: {

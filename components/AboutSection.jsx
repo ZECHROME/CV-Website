@@ -48,11 +48,11 @@ export default function AboutSection() {
 								<button className="bg-primary-700 w-[160px] h-[53px] rounded-full text-white font-bold text-xl hover:bg-white hover:text-black hover:border-4 hover:border-primary-700 transition-all s:w-[90px] s:h-[40px] s:text-base">Resume</button>
 							</a>
 							<a href="#contact">
-								<button className="bg-white w-[160px] h-[53px] rounded-full border-4 border-primary-700 font-bold text-xl hover:bg-primary-700 hover:text-white transition-all s:w-[90px] s:h-[40px] s:text-base">Contact</button>
+								<button className="bg-white w-[160px] h-[53px] rounded-full border-4 border-primary-700 font-bold text-xl hover:bg-primary-700 hover:text-white transition-all s:w-[90px] s:h-[40px] s:text-base s:border-3">Contact</button>
 							</a>
 						</div>
 						<div className="flex flex-col gap-2 s:gap-1">
-							<p className="text-[24px] font-medium mt-10 ml-7 mr-8 s:mt-4 s:ml-6 s:mr-5 s:text-[14px]">Hi! I&apos;m an ameteur website developer specializing in website developing. Had done some projects about web development given by my school involving front end development.</p>
+							<p className="text-[24px] font-medium mt-10 ml-7 mr-8 s:mt-4 s:ml-6 s:mr-5 s:text-[14px]">Hi! I&apos;m an ameteur website developer specializing in front-end development. Had done some projects about web development given by my school involving front end development.</p>
 							<p className="text-[24px] font-medium mt-3 ml-7 mr-5 s:mt-1 s:ml-6 s:mr-5 s:text-[14px]">I am currently doing an internship at Taksu Tech HQ and I would be happy to receive more projects in the future!</p>
 						</div>
 					</div>

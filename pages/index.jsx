@@ -73,7 +73,7 @@ export default function Home() {
 
 					<ul
 						ref={navbar}
-						className={`flex items-center z-auto md:static absolute bg-white w-full left-0 right-0 md:w-auto md:py-0 md:my-0 md:pl-0 pl-5 md:opacity-100 opacity-0 top-[-4000px] transition-all ease-in duration-500 s:pl-0 s:z-[-1] s:bg-white transition-all duration-500 s:w-full s:absolute s:flex s:flex-col s:justify-center s:items-center ${
+						className={`flex items-center z-auto md:static absolute bg-white w-full left-0 right-0 md:w-auto md:py-0 md:my-0 md:pl-0 pl-5 md:opacity-100 opacity-0 top-[-4000px] transition-all ease-in duration-500 s:pl-0 s:z-[-1] s:bg-white transition-all duration-500 s:w-[100%] s:absolute s:flex s:flex-col s:justify-center s:items-center ${
 							isNavOpen ? "s:top-full s:opacity-100" : "s:opacity-0 top-0"
 						}`}
 					>

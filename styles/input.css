@@ -15,6 +15,30 @@ main {
     overflow-x: hidden;
 }
 
+/* arrow */
+.swiper-button-prev {
+    color: #E98EAD;
+    width: calc(100% - 95%);
+}
+
+.swiper-button-prev::after {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.swiper-button-next {
+    color: #E98EAD;
+    width: calc(100% - 95%);
+}
+
+.swiper-button-next::after {
+   
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+
 /* flipcard */
 .card {
     transform-style: preserve-3d;
@@ -60,9 +84,34 @@ main {
     height: 50px;
 }
 
-.textArea {
+/* .textArea {
     resize: none;
-}
+} */
+
+@media only screen and (max-width: 768px) {
+    .inputBox span {
+        transition: 0.3s;
+    }
+    
+    .inputBox input:not(:placeholder-shown) ~ span,
+    .inputBox input:focus ~ span
+    {
+        color: white;
+        transform: translateY(-25px);
+        font-size: 17px;
+        font-weight: 700;
+    }
+    
+    .inputBox i {
+        transition: 0.3s;
+    }
+    
+    .inputBox input:not(:placeholder-shown) ~ i,
+    .inputBox input:focus ~ i 
+    {
+        height: 30px;
+    }
+  }
 
 
 

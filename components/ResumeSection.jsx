@@ -173,42 +173,42 @@ export default function ResumeSection() {
 						<div className="card relative w-[100%] h-[100%] bg-[#FF597B] rounded-2xl s:w-[100%] s:h-[100%]">
 							{/* front */}
 							<div className="front absolute w-[90%] h-[90%] bg-[#FF597B] text-black mt-4 ml-[45px] s:w-[100%] s:h-[100%] s:mt-0 s:ml-0 s:rounded-2xl">
-								<p className="text-[55px] font-bold text-[#FEDEFF] mt-[-2px] mb-[-10px] ml-[0px] tracking-wide s:text-[29px] s:ml-[14px] s:mt-[3px]">Characters</p>
+								<p className="text-[55px] font-bold text-[#FEDEFF] mt-[-2px] mb-[-10px] ml-[0px] tracking-wide s:text-[28px] s:ml-[14px] s:mt-[5px]">Characters</p>
 								<div className="flex flex-row gap-10 mt-3 s:gap-1 s:mt-[11px]">
 									{/* right */}
 									<div className="ml-4">
-										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[15px]">
+										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[10px]">
 											<div className="pt-[15px] s:pt-[4px]">
 												<ion-icon name="play-outline"></ion-icon>
 											</div>
 											<p className="text-[40px] font-semibold text-primary s:text-[18px]">Obedient</p>
 										</div>
-										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[15px]">
+										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[10px]">
 											<div className="pt-[15px] s:pt-[4px]">
 												<ion-icon name="play-outline"></ion-icon>
 											</div>
 											<p className="text-[40px] font-semibold text-primary s:text-[18px]">Honest</p>
 										</div>
 
-										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[15px]">
+										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[10px]">
 											<div className="pt-[15px] s:pt-[4px]">
 												<ion-icon name="play-outline"></ion-icon>
 											</div>
 											<p className="text-[40px] font-semibold text-primary s:text-[18px]">Attentive</p>
 										</div>
-										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[15px]">
+										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[10px]">
 											<div className="pt-[15px] s:pt-[4px]">
 												<ion-icon name="play-outline"></ion-icon>
 											</div>
 											<p className="text-[40px] font-semibold text-primary s:text-[18px]">Loyal</p>
 										</div>
-										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[15px]">
+										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[10px]">
 											<div className="pt-[15px] s:pt-[4px]">
 												<ion-icon name="play-outline"></ion-icon>
 											</div>
 											<p className="text-[40px] font-semibold text-primary s:text-[18px]">Confidence</p>
 										</div>
-										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[15px]">
+										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[10px]">
 											<div className="pt-[15px] s:pt-[4px]">
 												<ion-icon name="play-outline"></ion-icon>
 											</div>
@@ -217,31 +217,31 @@ export default function ResumeSection() {
 									</div>
 									{/* left */}
 									<div>
-										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[22px]">
+										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[20px]">
 											<div className="pt-[15px] s:pt-[4px]">
 												<ion-icon name="play-outline"></ion-icon>
 											</div>
 											<p className="text-[40px] font-semibold text-primary s:text-[18px]">Ambitious</p>
 										</div>
-										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[22px]">
+										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[20px]">
 											<div className="pt-[15px] s:pt-[4px]">
 												<ion-icon name="play-outline"></ion-icon>
 											</div>
 											<p className="text-[40px] font-semibold text-primary s:text-[18px]">Simple</p>
 										</div>
-										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[22px]">
+										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[20px]">
 											<div className="pt-[15px] s:pt-[4px]">
 												<ion-icon name="play-outline"></ion-icon>
 											</div>
 											<p className="text-[40px] font-semibold text-primary s:text-[18px]">Determined</p>
 										</div>
-										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[22px]">
+										<div className="flex flex-row items-start gap-4 text-[23px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[20px]">
 											<div className="pt-[15px] s:pt-[4px]">
 												<ion-icon name="play-outline"></ion-icon>
 											</div>
 											<p className="text-[40px] font-semibold text-primary s:text-[18px]">Generous</p>
 										</div>
-										<div className="flex flex-row items-start gap-4 text-[25px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[22px]">
+										<div className="flex flex-row items-start gap-4 text-[25px] text-primary font-medium ml-[45px] s:text-[14px] s:gap-2 s:ml-[20px]">
 											<div className="pt-[15px] s:pt-[4px]">
 												<ion-icon name="play-outline"></ion-icon>
 											</div>
